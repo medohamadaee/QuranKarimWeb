@@ -1,20 +1,40 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Quran Karim Web
 
-# Run and deploy your AI Studio app
+تطبيق ويب للمصحف الكريم
+مناسب للموبايل والكمبيوتر
 
-This contains everything you need to run your app locally.
+المميزات
+- فهرس السور مع معلومات السورة
+- عرض الآيات مع أرقامها
+- تشغيل تلاوة للسورة كاملة
+- تشغيل تلاوة لآية واحدة بالضغط عليها
+- اختيار القارئ
+- تظليل الآية الحالية أثناء التشغيل
+- بحث بدون تشكيل داخل السور والآيات
+- وضع داكن
+- وضع صفحة كلاسيكي
 
-View your app in AI Studio: https://ai.studio/apps/9b0948b4-2fb9-4d69-959f-9c83eaaa83cd
+التقنيات
+- React
+- TypeScript
+- Vite
 
-## Run Locally
+التشغيل محليا
+- ثبت Node.js
+- افتح Terminal داخل المشروع
+- نفذ الأوامر التالية
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run dev
+
+البناء للنشر 
+npm run build
+npm run preview
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+المصدر الصوتي
+EveryAyah
+
+الترخيص
+MIT
