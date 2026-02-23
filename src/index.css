@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: "Cairo", sans-serif;
+  --font-amiri: "Amiri", serif;
+}
+
+body {
+  @apply bg-[#fdfbf7] text-[#1a202c] transition-colors duration-300;
+  font-family: var(--font-cairo);
+}
+
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+.quran-text {
+  font-family: var(--font-amiri);
+  line-height: 2.5;
+}
